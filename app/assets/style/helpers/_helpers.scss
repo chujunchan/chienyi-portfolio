@@ -1,0 +1,69 @@
+//logo
+.logo{
+    width: 44px;
+    height: 44px;
+    @include media-breakpoint-up(md) { 
+        width: 52px;
+        height: 52px;
+     }
+}
+
+//bg
+.bgGradientBlue{
+    background-image: linear-gradient(to right, #68e0d7, #209cff);
+}
+
+//font
+.fontSP{
+    font-family: 'Dancing Script';
+}
+
+//text
+.textVertical{
+    writing-mode: vertical-rl;
+}
+
+//line
+.line{
+    &Horizontal-title::before{
+        content: "";
+        display: inline-block;
+        width: 150px;
+        height: 2px;
+        margin-right: 12px;
+        background-color: white;
+        vertical-align: middle;
+        
+        @include media-breakpoint-up(md) { 
+            width: 340px;
+            margin-right: 20px;
+         }
+        
+        @include media-breakpoint-up(lg) { 
+            width: 475px;
+         }
+    }
+
+    &Vertical-number::before{
+        content: "";
+        display: inline-block;
+        width: 2px;
+        height: 65px;
+        background-color: $primary;
+
+        @include media-breakpoint-up(md) { 
+            height: 101px;
+         }
+    }
+
+    &Vertical-experience{
+        padding-left: 24px;
+        border-left: 1px solid $primary;
+        margin-left: 24px;
+    }
+
+    &Horizontal-experience{
+        padding-bottom: 32px;
+        border-bottom: 1px solid $primary;
+    }
+}

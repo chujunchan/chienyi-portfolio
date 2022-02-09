@@ -1,0 +1,289 @@
+.pattern{
+    
+    // hero
+    &_hero_r-green{
+        width: 109vw;
+        top: -11.2vh;
+        right: -27vw;
+        @include media-breakpoint-up(md) { 
+            width: 80vw;
+            top: -16.5vw;
+            right: -10vw;
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 61.2vw;
+            top: -16.5vw;
+            right: -8.8vw;
+         }
+    }
+
+    &_hero_r-pink{
+        width: 36.54vw;
+        top: 21.5vw;
+        right: -8.8vw;
+        transform: rotate(135deg);
+        @include media-breakpoint-up(md) { 
+            width: 28vw;
+            top: 15vw;
+            right: -8.8vw;
+         }
+        
+        @include media-breakpoint-up(lg) { 
+            width: 21.6vw;
+            top: 10.4vw;
+            right: -8.8vw;
+         }
+    }
+
+    &_hero_l-blue{
+        width: 81vw;
+        top: 38vh;
+        left: -20vw;
+        transform: rotate(225deg);
+        @include media-breakpoint-up(md) { 
+            width: 60vw;
+            top: 40vw;
+            left: -20vw;
+            transform: rotate(210deg);
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 43.7vw;
+            top: -7.6vw;
+            left: -7vw;
+            transform: rotate(165deg);
+         }
+    }
+
+    &_hero_c-green{
+        width: 14.5vw;
+        bottom: 16vh;
+        right: 18vw;
+        transform: rotate(-135deg);
+        @include media-breakpoint-up(md) { 
+            width: 12vw;
+            bottom: 17vh;
+            right: 20vw;
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 5.7vw;
+            top: 15.8vw;
+            bottom: auto;
+            left: 30.7vw;
+            right: auto;
+         }
+    }
+
+
+    // works
+    &_works_l-pink{
+        width: 81.4vw;
+        top: -36vw;
+        left: -35vw;
+        @include media-breakpoint-up(md) { 
+            width: 60vw;
+            top: -25vw;
+            left: -16vw;
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 39vw;
+            top: -16.3vw;
+            left: -7vw;
+         }
+    }
+
+    &_works_r-green{
+        width: 13vw;
+        bottom: 15vw;
+        right: 6vw;
+        transform: rotate(-135deg);
+        @include media-breakpoint-up(lg) { 
+            width: 6.3vw;
+            bottom: 13vw;
+            right: 3vw;
+         }
+    }
+
+    
+    // about
+    &_about_r-blue{
+        width: 106vw;
+        top: 80vw;
+        right: -50vw;
+        transform: rotate(-90deg);
+        @include media-breakpoint-up(md) { 
+            width: 75vw;
+            top: 60vw;
+            right: -35vw;
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 39vw;
+            top: 15vw;
+            right: -20vw;
+         }
+    }
+
+    &_about_rl-green{
+        width: 15vw;
+        bottom: 35vw;
+        right: 12vw;
+        transform: rotate(-120deg);
+        @include media-breakpoint-up(md) { 
+            width: 12vw;
+            bottom: 20vw;
+            right: 20vw;
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 6.5vw;
+            bottom: 10vw;
+            right: auto;
+            left: 9.6vw;
+            transform: rotate(-55deg);
+         }
+    }
+
+
+    // all works
+    &_allworks_r-green{
+        width: 109vw;
+        top: -28vw;
+        right: -40vw;
+        @include media-breakpoint-up(md) { 
+            width: 80vw;
+            top: -19vw;
+            right: -12vw;
+         }
+        @include media-breakpoint-up(lg) { 
+             width: 61.2vw;
+             top: -16.5vw;
+             right: -8.8vw;
+        }
+    }
+
+    &_allworks_r-pink{
+        width: 36.54vw;
+        top: 19vw;
+        right: -10vw;
+        transform: rotate(135deg);
+        @include media-breakpoint-up(md) { 
+            width: 30vw;
+            top: 15vw;
+            right: -8vw;
+         }
+        @include media-breakpoint-up(lg) { 
+             width: 21.6vw;
+             top: 10.4vw;
+             right: -8.8vw;
+        }
+    }
+
+    &_allworks_l-blue{
+        width: 20vw;
+        top: 145vh;
+        left: -8vw;
+        transform: rotate(-45deg);
+        @include media-breakpoint-up(md) { 
+            width: 15vw;
+            top: 147vh;
+            left: -5vw;
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 6.5vw;
+            top: 230vh;
+            left: 2.5vw;
+         }
+    }
+
+    &_allworks_r-green-c{
+        width: 40vw;
+        bottom: 8vw;
+        right: -21vw;
+        transform: rotate(-60deg);
+    }
+
+
+    // works detail
+    &_worksdetail_r-blue{
+        width: 94.2vw;
+        top: -22vw;
+        right: -30vw;
+        transform: rotate(15deg);
+        @include media-breakpoint-up(md) { 
+            width: 63vw;
+            top: -12vw;
+            right: -15vw;
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 43.7vw;
+            top: -10vw;
+            right: -8.8vw;
+        }
+    }
+
+    &_worksdetail_l-green{
+        width: 10vw;
+        top: 50vw;
+        left: -3vw;
+        transform: rotate(135deg);
+        @include media-breakpoint-up(lg) { 
+            width: 6vw;
+            top: 30vw;
+            left: 4vw;
+        }
+    }
+
+    &_worksdetail_r-pink{
+        width: 30vw;
+        bottom: 5vw;
+        right: -14vw;
+        transform: rotate(-135deg);
+        @include media-breakpoint-up(lg) { 
+            width: 23vw;
+            bottom: 5vw;
+            right: -14vw;
+        }
+    }
+
+
+
+    // about detail
+    &_aboutdetail_r-blue{
+        width: 106vw;
+        top: 75vw;
+        right: -55vw;
+        transform: rotate(-90deg);
+        @include media-breakpoint-up(md) { 
+            width: 72vw;
+            top: 55vw;
+            right: -35vw;
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 39vw;
+            top: 18vw;
+            right: -19vw;
+         }
+    }
+
+    &_aboutdetail_r-pink{
+        width: 25vw;
+        top: 40vw;
+        right: -12vw;
+        transform: rotate(-90deg);
+    }
+
+    &_aboutdetail_l-green{
+        width: 15vw;
+        top: 6vw;
+        left: 30vw;
+        transform: rotate(-120deg);
+        @include media-breakpoint-up(md) { 
+            width: 11vw;
+            top: 5vh;
+            left: 35vw;
+         }
+        @include media-breakpoint-up(lg) { 
+            width: 6vw;
+            top: 50vh;
+            left: 4vw;
+         }
+    }
+}
